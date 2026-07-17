@@ -17,7 +17,7 @@
     <div class="container">
         
         <!-- HEADER LAYOUT -->
-        <header class="clearfix">
+        <header>
             <div class="logo-container">
                 <a href="index.html">
                     <img src="assets/logo.png" alt="Taste & Tale Logo">
@@ -26,7 +26,7 @@
             
             <!-- NAV LAYOUT -->
             <nav>
-                <ul class="clearfix">
+                <ul>
                     <li><a href="index.html">Trang Chủ</a></li>
                     <li><a href="recipe.html">Chi Tiết Công Thức</a></li>
                     <li><a href="submit.html" class="active">Đóng Góp & Review</a></li>
@@ -35,10 +35,10 @@
         </header>
 
         <!-- MAIN FORM CONTENT -->
-        <div class="main-wrapper clearfix">
+        <div class="main-wrapper">
             
             <!-- main tag -->
-            <main style="float: none; width: 100%; padding-right: 0;">
+            <main>
                 
                 <section class="form-intro">
                     <h1>Đóng Góp Cho Taste & Tale</h1>
@@ -55,7 +55,7 @@
                         <legend>Biểu Mẫu Gửi Bài Viết</legend>
 
                         <!-- Tên đóng góp (Text Input) -->
-                        <div class="form-group clearfix">
+                        <div class="form-group">
                             <label for="fullname" class="field-label">Họ và Tên:</label>
                             <div class="input-wrapper">
                                 <input type="text" id="fullname" name="fullname" placeholder="Nhập họ và tên của bạn..." required>
@@ -63,7 +63,7 @@
                         </div>
 
                         <!-- Email (HTML5 Email input with validation) -->
-                        <div class="form-group clearfix">
+                        <div class="form-group">
                             <label for="email" class="field-label">Địa Chỉ Email:</label>
                             <div class="input-wrapper">
                                 <input type="email" id="email" name="email" placeholder="vi_du@email.com" required>
@@ -71,7 +71,7 @@
                         </div>
 
                         <!-- Blog URL (HTML5 URL input with validation) -->
-                        <div class="form-group clearfix">
+                        <div class="form-group">
                             <label for="website" class="field-label">Liên Kết Cá Nhân:</label>
                             <div class="input-wrapper">
                                 <input type="url" id="website" name="website" placeholder="https://trangwebcuaban.com (nếu có)">
@@ -79,7 +79,7 @@
                         </div>
 
                         <!-- Date (HTML5 Date input with validation) -->
-                        <div class="form-group clearfix">
+                        <div class="form-group">
                             <label for="post-date" class="field-label">Ngày Đóng Góp:</label>
                             <div class="input-wrapper">
                                 <input type="date" id="post-date" name="post_date" required>
@@ -87,7 +87,7 @@
                         </div>
 
                         <!-- Select Option (Recipe / Book Review category) -->
-                        <div class="form-group clearfix">
+                        <div class="form-group">
                             <label for="category" class="field-label">Chuyên Mục:</label>
                             <div class="input-wrapper">
                                 <select id="category" name="category">
@@ -100,7 +100,7 @@
                         </div>
 
                         <!-- Radio Buttons (Rating stars - same name attribute) -->
-                        <div class="form-group clearfix">
+                        <div class="form-group">
                             <label class="field-label">Đánh Giá Công Thức/Sách:</label>
                             <div class="input-wrapper">
                                 <label class="choice-group">
@@ -127,7 +127,7 @@
                         </div>
 
                         <!-- Checkbox (Newsletter subscription) -->
-                        <div class="form-group clearfix">
+                        <div class="form-group">
                             <label class="field-label">Đăng Ký Bản Tin:</label>
                             <div class="input-wrapper">
                                 <label class="choice-group">
@@ -138,7 +138,7 @@
                         </div>
 
                         <!-- Textarea Content -->
-                        <div class="form-group clearfix">
+                        <div class="form-group">
                             <label for="content" class="field-label">Chi Tiết Bài Viết:</label>
                             <div class="input-wrapper">
                                 <textarea id="content" name="content" rows="8" placeholder="Nhập công thức chi tiết (Nguyên liệu, các bước làm) hoặc nội dung review sách ẩm thực của bạn..." required></textarea>
@@ -159,7 +159,7 @@
         </div>
 
         <!-- FOOTER LAYOUT -->
-        <footer class="clearfix">
+        <footer>
             <!-- Back to top feature -->
             <div class="back-to-top-wrapper">
                 <a href="#top" class="back-to-top">↑ Lên Đầu Trang</a>
@@ -167,13 +167,13 @@
 
             <!-- Footer navigation -->
             <div class="footer-nav">
-                <a href="index.html">Trang Chủ</a> | 
-                <a href="recipe.html">Chi Tiết Công Thức</a> | 
+                <a href="index.html">Trang Chủ</a>
+                <a href="recipe.html">Chi Tiết Công Thức</a>
                 <a href="submit.html">Đóng Góp & Review</a>
             </div>
 
             <!-- Absolute links (at least 3 external links opening in new tab) -->
-            <p style="font-size: 0.8rem; margin-bottom: 10px;">
+            <p class="footer-references">
                 Tài liệu tham khảo thêm về Ẩm thực Việt Nam: 
                 <a href="https://vi.wikipedia.org/wiki/Ph%E1%BB%9F" target="_blank" rel="noopener noreferrer">Wikipedia về Phở</a> | 
                 <a href="https://vi.wikipedia.org/wiki/B%C3%A1nh_m%C3%AC_Vi%E1%BB%87t_Nam" target="_blank" rel="noopener noreferrer">Wikipedia về Bánh Mì</a> | 
@@ -181,7 +181,7 @@
             </p>
 
             <!-- mailto: link -->
-            <p style="font-size: 0.85rem; margin-bottom: 15px;">
+            <p class="footer-contact">
                 Mọi thắc mắc hoặc đặt bàn, vui lòng gửi email về: 
                 <a href="mailto:contact@tastetale.com?subject=Lien%20he%20Taste%20Tale">contact@tastetale.com</a>
             </p>
